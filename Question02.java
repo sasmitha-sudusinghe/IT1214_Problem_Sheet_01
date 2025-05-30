@@ -33,7 +33,7 @@ class Vehicle {
         this.hoursParked = hoursParked;
     }
 
-    @Override
+    
     public String toString() {
         return "License Plate: " + licensePlate + ", Owner: " + ownerName + ", Hours Parked: " + hoursParked;
     }
